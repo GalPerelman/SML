@@ -20,7 +20,7 @@ def plot_segmented_images(original_img):
 
     for i in range(1,len(clusters)+1):
         axs[i].imshow(segement_image_with_kmeans(original_img, clusters[i-1]).astype(np.uint8))
-        axs[i].set_title('Segmented Image' +'\n' + 'to ' + str(clusters[i-1]) + 'colors')
+        axs[i].set_title('Segmented Image' +'\n' + 'to ' + str(clusters[i-1]) + ' colors')
         axs[i].axis('off')
 
     fig.tight_layout()
