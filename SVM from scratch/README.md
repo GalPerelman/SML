@@ -1,3 +1,5 @@
+**SVM From Scratc**
+
 Implementation of SVM classifier from scratch (without packages usage)
 The algorithm updating is based onstochastic gradient descent (SGD)
 
