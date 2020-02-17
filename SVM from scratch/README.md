@@ -1,7 +1,7 @@
 **SVM From Scratch**
 
-Implementation of SVM classifier from scratch (without packages usage)
-The algorithm updating is based onstochastic gradient descent (SGD)
+Implementation of SVM classifier from scratch (without packages usage)\
+The algorithm updating is based on stochastic gradient descent (SGD)\
 
 The code contain:
 comparison of my function to thre built-in sklearn SVM function
