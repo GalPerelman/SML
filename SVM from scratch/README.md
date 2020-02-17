@@ -1,17 +1,18 @@
 **SVM From Scratch**
 
 Implementation of SVM classifier from scratch (without packages usage)\
-The algorithm updating is based on stochastic gradient descent (SGD)\
+The algorithm updating is based on stochastic gradient descent (SGD)
 
-The code contain:
-comparison of my function to thre built-in sklearn SVM function
+The code contains:\
+-comparison of my function to the built-in sklearn SVM function
  
 ![Q2_validate](https://user-images.githubusercontent.com/53649764/74610552-e7410480-50fc-11ea-881f-5352c5cdb640.png)
 
 
-Classification of the Iris dataset with different 𝜆 hyperparameter (all with Linear Kernel)
+-Classification of the Iris dataset with different 𝜆 hyperparameter (all with Linear Kernel)
 
-The meaning of 𝜆 hyperparameter - In SVM loss function, the 𝜆 parameter is multiplied by the weights vector 
+**The meaning of 𝜆 hyperparameter:**\
+In SVM loss function, the 𝜆 parameter is multiplied by the weights vector 
 This influences the outcome in two ways:
 1)	Weights – As we increase 𝜆, the model is more “severely punished” for increasing weight size
 2)	Margins – As we increase 𝜆, the model will provide a separation plane with wider margins
