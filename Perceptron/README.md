@@ -1,4 +1,4 @@
-**Implementation of Perceptron binary classifier**\
+**Implementation of Perceptron binary classifier**
 
 The function gets:\
 x - data matrix (can be in any dimension)\
